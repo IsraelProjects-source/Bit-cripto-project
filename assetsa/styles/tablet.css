@@ -1,0 +1,51 @@
+/*por buenas practicas los media queries deben de ir separados de los styles para que no se descarguen
+rodos los archivos si no se necesitan.- solo se decargara el que se necesite*/
+html {
+    font-size: 80%;
+}
+
+.plans-container--card  {
+    height: 270px;
+}
+
+.plans-container--card-basic {
+    height: 270px;
+}
+
+.plans-container--card-premium {
+    height: 270px;
+}
+
+.recomendado {
+    width: 140px;
+}
+
+.currency-table--date {
+    width: 280px;  
+}
+
+.comision-table--date {
+    width: 280px;  
+}
+
+.plans-container--slider {
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-tables-container {
+    overflow: hidden;
+}
+
+.main-tables-container {
+    justify-content: center;
+}
+
+.product-card--container {
+    display: flex;
+    /*para que no genere un overflow*/
+    flex-wrap: wrap;
+    /*esto hara que no cresca o se estiren la tarjetas*/
+    width: 930px;
+    margin: 0 auto;
+}
